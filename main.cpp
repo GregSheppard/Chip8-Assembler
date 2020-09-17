@@ -4,7 +4,7 @@
 
 int main() {
 	Assembler assembler;
-	assembler.assembleROM("asm/pong.asm");
+	assembler.assembleROM("asm/test.asm");
 	//assembler.toFile("ROMs/assembled/pong.ch8");
 	
 	/*int hold;
