@@ -4,8 +4,8 @@
 
 int main() {
 	Assembler assembler;
-	assembler.assembleROM("asm/test.asm");
-	//assembler.toFile("ROMs/assembled/pong.ch8");
+	assembler.assembleROM("asm/pong.asm");
+	assembler.toFile("ROMs/pong.ch8");
 	
 	/*int hold;
 	std::string test = "this is,	 a  test";
